@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/game-information.css" />
+    <script src="./js/details.js" defer></script>
+    <title>games</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <div class="header-section mobile-only">
+          <label for="search-icon"> <i class="fas fa-search"></i> </label>
+          <input type="checkbox" id="search-icon" />
+          <div class="search-mobile">
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+        <div class="header-section">
+          <span class="logo">
+            <a href="/"
+              ><img src="./Images/GameHub_Logo 1.png" alt="gamehub logo" /></a
+          ></span>
+        </div>
+        <div class="header-section desktop-only">
+          <div class="dropdown">
+            <label class="store-menu-label" for="store-menu">Store </label>
+            <input id="store-menu" type="checkbox" />
+            <ul class="dropdown-menu">
+              <li>
+                <a href="games.html#all">All games</a>
+              </li>
+              <li>
+                <a href="games.html#new">New games</a>
+              </li>
+              <li>
+                <a href="games.html#pre-owned">Pre-owned games</a>
+              </li>
+              <li>
+                <a href="#">Sell your games</a>
+              </li>
+            </ul>
+          </div>
+          <a href="contact.html">Contact</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="header-section desktop-only">
+          <div class="search">
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+        <div class="header-section">
+          <a href="profile.html" class="profile desktop-only"
+            ><i class="fas fa-user"></i
+          ></a>
+          <label class="hamburger-menu mobile-only"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <div class="hamburger-menu-dropdown">
+            <input id="hamburger-menu" type="checkbox" />
+            <ul class="app-navigation-drawer mobile-only">
+              <h3>Menu</h3>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="games.html#new">New games</a></li>
+              <li><a href="games.html#pre-owned">Pre-owned games</a></li>
+              <li><a href="games.html">All games</a></li>
+              <li><a href="games.html#sale">Sale</a></li>
+              <li><a href="sell.html">Sell your game</a></li>
+              <h4>Support</h4>
+              <li><a href="help.html">Help</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <a href="shoppingcart.html" class="cart"
+            ><i class="fas fa-shopping-cart"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <h1 class="main-title">Game information</h1>
+        <div class="game">
+          <div class="loading">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="button">
+          <a href="./shoppingcart.html" class="add-to-cart-button"
+            >Add to cart</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="section2">
+        <div class="container">
+          <div class="learn-more">
+            <h2 class="learn-more-header">Learn more</h2>
+            <ul class="footer-links">
+              <li><a href="#">Read our blog</a></li>
+              <li><a href="#">Gamehub guarantee</a></li>
+              <li><a href="#">Saftey</a></li>
+              <li><a href="#">Help centre</a></li>
+            </ul>
+          </div>
+          <div class="about-gamehub">
+            <h2 class="about-gamehub-header">About Gamehub</h2>
+            <ul class="footer-links">
+              <li><a href="#">About us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Accessebility</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Privacy statement</a></li>
+              <li><a href="#">Cookie policy</a></li>
+              <li><a href="#">Terms of service</a></li>
+            </ul>
+          </div>
+          <div class="find-it">
+            <h2 class="find-it-header">Find it</h2>
+            <ul class="footer-links">
+              <li><a href="games.html#digital-games">Digital games</a></li>
+              <li><a href="games.html#pre-owned-games">Pre-owned games</a></li>
+              <li><a href="#">Merch</a></li>
+              <li><a href="#">Trade values</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
